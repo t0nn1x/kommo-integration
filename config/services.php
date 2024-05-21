@@ -35,4 +35,8 @@ return [
         ],
     ],
 
+    'kommo' => [
+        'base_uri' => env('KOMMO_API_URL'), 
+        'token' => env('KOMMO_API_TOKEN'), 
+    ],
 ];
